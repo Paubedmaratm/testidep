@@ -1,0 +1,13 @@
+html {
+  /* --variable-name: value; */
+
+
+  /* Fuentes */
+--kanit: 'Kanit';
+
+
+  /* Paddings */
+  --main-side-spacer: 130px;
+  --main-vertical-spacer: 132px;
+  
+}

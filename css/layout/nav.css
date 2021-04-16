@@ -1,0 +1,148 @@
+.menu-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: radial-gradient(circle at 0% 0%, rgb(0, 67, 122) 0%, rgb(0, 30, 80) 100%);
+  padding: 1rem 2rem;
+  transform: translateX(-100%);
+  transition: transform .5s;
+  z-index: 2;
+}
+
+.menu-nav.visible{
+  transform: translateX(0);
+}
+
+.menu-nav ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-nav li{
+  margin-bottom: 1rem;
+}
+
+.menu-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.show-menu{
+  background-color: #e94057;
+  color: white;
+  padding: .5rem 1rem;
+  border: 0;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+
+.close-menu{
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 4rem;
+  top: 0;
+}
+
+.primerbloque {
+left: 4rem;
+grid-column: 1 / 7;
+font-size: 23px;
+font-weight: 200;
+font-family: var(--kanit);
+
+
+}
+
+.tercerbloque {
+    left: 4rem;
+    grid-column: 7 / 8;
+    font-size: 23px;
+    font-weight: 200;
+    font-family: var(--kanit);
+
+
+    
+}
+
+.ribetemenu {
+    height:490px;
+    width: 1px;
+    background-color: white;
+    grid-column: 13 / 14;
+    margin-left: 20px;
+
+
+}
+
+.segundobloque {
+    left: 4rem;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: var(--kanit);
+    grid-column: 14 / 17;
+    }
+
+.gridmenu {
+    display: grid;
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+}
+
+.golf {
+    padding-top:40px
+}
+
+.golfito {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: var(--kanit);
+}
+
+.subtitulos {
+left: 4rem;
+font-size: 15px;
+font-weight: 200;
+font-family: var(--kanit);
+color: white;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.close-menu {
+font-size: 12px;
+font-weight: 200;
+font-family: var(--kanit);
+color: white;
+padding-top: 30px;
+display: flex;
+}
+
+.boton-menu{
+padding-left: 10px;
+margin-top: 4px;;
+}
+
+.menu-nav a:hover{
+color: #4cc7f4
+}
+
+
+li:hover{
+color: #4cc7f4
+}
+
+.close-menu:hover{
+color: #4cc7f4
+}
+
+.subtitulos:hover{
+    color: #4cc7f4
+    }
+        

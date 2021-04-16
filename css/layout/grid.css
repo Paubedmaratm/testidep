@@ -1,0 +1,11 @@
+.section {
+    padding: var(--main-vertical-spacer) var(--main-side-spacer);
+}
+
+.section2 {
+    padding: 100px 80px;
+
+    
+    
+}
+

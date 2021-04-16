@@ -1,0 +1,41 @@
+.hero {
+    height: 100vh;
+    background-color: coral;
+    background-image: url(/img/Home_Stage_Nuevo_Tiguan-eHybrid_2560x1440px-v3.jpeg);
+    background-size: cover;
+    padding: 0 var(--main-side-spacer);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero img {
+display: block;
+filter: brightness(80%);
+background-repeat: no-repeat;
+
+}
+
+.titulinhero {
+    font-family: var(--kanit);
+    font-size: 32px;
+    color: WHITE;
+
+
+}
+
+.titulohero {
+    font-family: var(--kanit);
+    font-size: 64px;
+    color: white;
+    width: 70%;
+}
+
+.basehero {
+    font-family: var(--kanit);
+    font-size: 20px;
+    color: white;
+    width: 70%;
+    font-weight: 100;
+}
